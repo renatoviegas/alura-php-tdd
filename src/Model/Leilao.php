@@ -1,11 +1,12 @@
 <?php
-
 namespace Alura\Leilao\Model;
 
 class Leilao
 {
+
     /** @var Lance[] */
     private $lances;
+
     /** @var string */
     private $descricao;
 
@@ -21,6 +22,7 @@ class Leilao
     }
 
     /**
+     *
      * @return Lance[]
      */
     public function getLances(): array
